@@ -1,15 +1,3 @@
-/*!
-=========================================================
-* Muse Ant Design Dashboard - v1.0.0
-=========================================================
-* Product Page: https://www.creative-tim.com/product/muse-ant-design-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/muse-ant-design-dashboard/blob/main/LICENSE.md)
-* Coded by Creative Tim
-=========================================================
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import React from "react";
 import {
   Row,
@@ -613,14 +601,14 @@ function Tables() {
                 <Table
                   columns={columns}
                   dataSource={data}
-                  pagination={false}
+                  pagination={true}
                   className="ant-border-space"
                 />
               </div>
             </Card>
 
             <Card
-              bordered={false}
+              bordered={true}
               className="criclebox tablespace mb-24"
               title="Projects Table"
               extra={
