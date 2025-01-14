@@ -70,7 +70,7 @@ const columns = [
     width: "32%",
   },
   {
-    title: "Status",
+    title: "Turi",
     dataIndex: "status",
     key: "status"
   },
